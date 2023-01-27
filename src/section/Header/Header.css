@@ -1,0 +1,43 @@
+.navbar {
+    width: 1440px;
+    background-color: #DD1176;
+    margin-bottom: 50px;
+    padding-bottom: .5rem;
+
+}
+
+
+a {
+
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+
+a:hover {
+    color: #FFFFFF;
+    background-color: #FFEC30;
+    border-radius: 20%;
+    height: 42px;
+    border-radius: 30px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+
+    padding: 25px 10px;
+    margin: 25px;
+}
+
+.netizen-navbar {
+    padding: 15px 10px;
+    position: absolute;
+    top: 15px;
+    right: 102px;
+}
