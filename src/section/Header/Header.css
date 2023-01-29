@@ -1,13 +1,15 @@
 .navbar {
-    width: 1440px;
+
     background-color: #DD1176;
     margin-bottom: 50px;
     padding-bottom: .5rem;
 
+
 }
 
 
-a {
+
+a .nav-link {
 
     padding: 10px;
     text-decoration: none;
@@ -18,21 +20,18 @@ a {
 }
 
 
-a:hover {
-    color: #FFFFFF;
+.nav-item a:hover {
+    color: #FFFFFF !important;
     background-color: #FFEC30;
-    border-radius: 20%;
-    height: 42px;
+   
     border-radius: 30px;
 }
 
 .logo {
-    display: flex;
-    justify-content: center;
-    align-items: left;
-
-    padding: 25px 10px;
+    max-width: 100%;
+    padding-left: 10px;
     margin: 25px;
+
 }
 
 .netizen-navbar {
@@ -40,4 +39,26 @@ a:hover {
     position: absolute;
     top: 15px;
     right: 102px;
+}
+
+.container-fluid {
+    padding: 0px;
+    overflow: hidden;
+}
+
+.navbar-brand {
+    max-width: 100%;
+    padding-left: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+@media (max-width: 1115px) {
+
+    /*إخفاء حقل البحث الموجود في القائمة العلوية*/
+    .nav-link .polygon {
+        display: none;
+    }
 }

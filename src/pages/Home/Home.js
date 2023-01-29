@@ -10,31 +10,25 @@ function Home() {
     <>
 
       <Container>
-        <div className='row col-12'>
-          <div className='primary-color text-center col-4'>
-            <Card image={creative}
-              title='Creative'
-              soustitle='"Design creates culture. Culture shapes qualitative. qualitative determine the future."'
-              signature='Robert L. Peters'
-            />
-          </div>
-          <div className='secondary-color col-4'>
-            <Card image={innovative}
-              title='Innovative'
-              soustitle='“There are 360 degrees, so why stick to one?”'
-              signature='ZAHA HADID'
-            />
-          </div>
-          <div className='thirty-color col-4'>
-            <Card image={qualitative}
-              title='Qualitative'
-              soustitle='“Design is not just what it looks like
+        <Card image={creative}
+          title='Creative'
+          soustitle='"Design creates culture. Culture shapes qualitative. qualitative determine the future."'
+          signature='Robert L. Peters'
+        />
+        <Card image={innovative}
+          title='Innovative'
+          soustitle='“There are 360 degrees, so why stick to one?”'
+          signature='ZAHA HADID'
+        />
+        <Card image={qualitative}
+          title='Qualitative'
+          soustitle='“Design is not just what it looks like
         and feels like. Design is how it works.”'
-              signature='STEVE JOBS'
-            />
-          </div>
+          signature='STEVE JOBS'
+        />
 
-        </div>
+
+
 
         <Button text='Post Your Project' />
       </Container>

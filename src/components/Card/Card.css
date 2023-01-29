@@ -29,14 +29,7 @@
 }
 
 .netizen-card-img {
-    width: 233px;
-    height: 227px;
+   max-width: 100%;
     align-items: center;
     margin: 20px;
-}
-
-.card-item{
-    align-items: center;
-    padding-top: 220px;
-   /* width: 30%;*/
 }

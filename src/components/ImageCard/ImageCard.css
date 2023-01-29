@@ -34,3 +34,6 @@
   padding: 1rem;
   border-radius: calc(.25rem - 1px);
 }
+.title a{
+  color: #FFFFFF;
+}

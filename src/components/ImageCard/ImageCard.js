@@ -7,7 +7,7 @@ const ImageCard = (props) => {
             <Card className="imagecard text-white   text-center" >
 
                 <Card.ImgOverlay className='align-items-center'>
-                    <Card.Title className='title'>{props.title}</Card.Title>
+                    <Card.Title className='title'><a href=''>{props.title}</a></Card.Title>
                     <Card.Text >
                         {props.text}
                     </Card.Text>

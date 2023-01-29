@@ -3,12 +3,12 @@ import './Container.css'
 const Container = (props) => {
   return (
     <>
-
-      <div className='row'>
+      <div className='container'>
+        <div className='row col-12'>
           {props.children}
-         
-          </div>
-          
+
+        </div>
+      </div>
     </>
   )
 }

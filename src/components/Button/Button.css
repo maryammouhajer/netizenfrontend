@@ -1,4 +1,4 @@
-.button {
+.post-button {
   width: 554px;
   height: 57px;
   text-align: center;
@@ -6,15 +6,14 @@
   border-radius: 20px;
   border: #FFEC30;
 }
+
 @media (max-width: 570px) {
-  .button {
+  .post-button {
     width: 250px;
     height: 57px;
     text-align: center;
-  
-      font-size: 13px;
+
+    font-size: 13px;
   }
-  .fa-play {
-      font-size: 20px !important;
-  }
+
 }
